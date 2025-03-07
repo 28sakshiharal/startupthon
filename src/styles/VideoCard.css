@@ -1,0 +1,114 @@
+.video-card {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    border-radius: 16px;
+    padding: 16px;
+    position: relative;
+    width: 350px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .video-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .video-thumbnail {
+    background: radial-gradient(circle, #00d4ff, #090979);
+    height: 180px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .play-button {
+    background: white;
+    color: black;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+  
+  .video-info {
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .video-controls {
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .speed-control {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .video-card {
+    background: linear-gradient(to right, #6a5acd, #8a2be2);
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 300px;
+    margin: 20px auto;
+  }
+  
+  .video-header {
+    font-weight: bold;
+  }
+  
+  .video-thumbnail {
+    background: radial-gradient(circle, #4b0082, #0000ff);
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+  }
+  
+  .play-button {
+    background: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .video-info, .video-footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  .video-footer span {
+    cursor: pointer;
+  }
+  
